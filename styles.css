@@ -1,0 +1,109 @@
+#heroImgBlock {
+    width: 96px;
+    height: 96px;
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    bottom: 64px
+}
+#heroImg {
+    width: 576px;
+    height: 384px;
+    position: relative;
+    top: 0px;
+    left: -96px;
+    transform: scale(-1,1)
+}
+#fsBtn {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    right: 20px
+}
+#canvas {
+    background-color: white
+}
+#jumpBlock {
+    width: 144px;
+    height: 144px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    opacity: 0.5
+}
+#hitBlock {
+    width: 144px;
+    height: 144px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    overflow: hidden;
+    opacity: 0.5
+}
+#jumpBlock img {
+    position: absolute; 
+    top: -144px; 
+    left: -144px; 
+    width: 864px;
+    height: 576px;
+    transform: scale(-1,1)
+}
+#jumpBlock div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: solid blue 2px
+}
+#hitBlock img {
+    position: absolute; 
+    top: -452px; 
+    left: -442px; 
+    width: 864px;
+    height: 576px;
+    transform: scale(-1,1)
+}
+#hitBlock div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: solid blue 2px
+}
+#backgroundBlock img {
+    position: absolute;
+    left: 0px;
+    bottom: 64px;
+    width: 100%
+}
+#deathFinal {
+    position: absolute;
+    font-size: 100px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Press Start 2P', cursive;
+    color: orangered;
+    display: none
+}
+#restartBtn {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    right: 80px
+}
+#winFinal {
+    position: absolute;
+    font-size: 100px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Press Start 2P', cursive;
+    color: orangered;
+    display: none
+}
